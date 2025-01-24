@@ -1,0 +1,74 @@
+{
+    "personagens": [
+        {
+            "nome": "Elesis",
+            "classes": ["Espadachim", "Cavaleira", "Gladiadora", "Justiceira"]
+        },
+        {
+            "nome": "Lire"
+        },
+        {
+            "nome": "Arme"
+        },
+        {
+            "nome": "Lass"
+        },
+        {
+            "nome": "Ryan"
+        },
+        {
+            "nome": "Ronan"
+        },
+        {
+            "nome": "Amy"
+        },
+        {
+            "nome": "Jin"
+        },
+        {
+            "nome": "Sieghart"
+        },
+        {
+            "nome": "Mari"
+        },
+        {
+            "nome": "Dio"
+        },
+        {
+            "nome": "Zero"
+        },
+        {
+            "nome": "Rey"
+        },
+        {
+            "nome": "Lupus"
+        },
+        {
+            "nome": "Lin"
+        },
+        {
+            "nome": "Azin"
+        },
+        {
+            "nome": "Holy"
+        },
+        {
+            "nome": "Edel"
+        },
+        {
+            "nome": "Veigas"
+        },
+        {
+            "nome": "Uno"
+        },
+        {
+            "nome": "Decane"
+        },
+        {
+            "nome": "Ai"
+        },
+        {
+            "nome": "Kallia"
+        }
+    ]
+}

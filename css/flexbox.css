@@ -1,0 +1,46 @@
+    /* CSS GRID */
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+header {
+    grid-column: 1 / 7;
+    grid-row: 1;
+}
+
+.container__menu {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+main {
+    grid-column: 2/7;
+    grid-row: 2;
+}
+
+.secao__personagens .lista-personagens {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+    /* FLEXBOX */
+.lista__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.secao__classes .lista-classes {
+    display: flex;
+    gap: 5px;
+}

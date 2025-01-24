@@ -1,0 +1,95 @@
+:root {
+    --cor-principal: #273142;
+    --cor-destaque: #4880FF;
+    --cor-fundo: #1B2431;
+
+    --font-destaque: 'Krona One', serif;
+    --font-principal: 'Prompt', serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: #FFFFFF;
+    height: 100vh;
+}
+
+p {
+    font-family: var(--font-principal);
+}
+
+header {
+    background-color: var(--cor-principal);
+    height: 70px;
+}
+
+header .titulo {
+    font-family: var(--font-destaque);
+    font-size: 24px;
+    margin: 22px 18px;
+}
+
+header .destaque-titulo {
+    color: var(--cor-destaque);
+}
+
+/* Menu */
+.container__menu {
+    background-color: var(--cor-principal);
+    height: calc(100vh - 70px);
+    
+}
+
+.container__menu .lista__menu {
+    padding: 12px 24px;
+}
+
+.lista__menu li a {
+    color: white;
+    font-family: var(--font-principal);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 8px;
+}
+
+.lista__menu li a:hover {
+    background-color: var(--cor-fundo);
+}
+
+.lista__menu li .active {
+    background-color: var(--cor-destaque);
+}
+
+/* Seção Personagens */
+main .subtitulo {
+    font-family: var(--font-destaque);
+    font-size: 20px;
+    margin: 32px 0;
+}
+
+.secao__personagens .lista-personagens, .secao__classes .lista-classes {
+    background-color: var(--cor-principal);
+    max-width: 953px;
+    padding: 20px 22px;
+    border-radius: 8px;
+}
+
+.secao__personagens .lista__personagens-item {
+    cursor: pointer;
+}
+
+.secao__personagens .lista__personagens-item.active {
+    background-color: blue;
+}
+
+.secao__personagens .lista-personagens img {
+    height: 90px;
+    width: 90px;
+}
+
+.secao__classes .lista-classes img {
+    border-radius: 8px;
+}
